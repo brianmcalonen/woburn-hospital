@@ -1,0 +1,473 @@
+body{
+    background: #ffffff;
+}
+
+@media (min-width: 768px) {
+.navbar-right {
+        margin-top: 1%;
+    }
+}
+
+nav {
+    background: white !important;
+    border: none !important;
+    /* display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important; */
+}
+
+.navbar-inverse{
+    background-color:white;
+    border-color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #d4d4e1;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #d4d4e1;
+    background-color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    color: #d4d4e1 !important;
+}
+
+.navbar {
+    position: relative;
+    min-height: auto !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    border: 1px solid #d4d4e1 !important;
+    border-radius: 4px;
+}
+
+.navbar-brand img{
+    width:200px;
+}
+
+#main_header{
+    background-image: url('../images/hero_image.jpg');
+}
+#main_div_col{
+    text-align: center;
+}
+
+.temp_h3{
+    text-align:center;
+    color:#333;
+    margin-bottom: 30px;
+}
+
+#temp_dertf{
+     padding:0px !important;
+}
+
+#temp_dertf h1{
+    font-size:20px;
+}
+
+#temp_dertf i{
+    font-size:56px;
+}
+
+.hero13 h1{
+    color:white;
+}
+
+#third_part h1{
+    text-align:center;
+}
+
+#part_1{
+    padding-top:4%;
+}
+
+#part_1 .container{
+    background-color:#efefef;
+    height:150px;
+}
+
+#box_data_123{
+    background-color:white;
+}
+
+#box_data_123 h3{
+   color:#4694ff;
+   font-size: 22px;
+}
+
+#box_data_123 i{
+    color:#fec006;
+}
+
+#box_icon i{
+    color:#9c9c9f;
+    padding-right:5px;
+}
+
+#Featured_job .container{
+    box-shadow: 0 0 19px rgb(0 0 0 / 14%);
+}
+
+#Featured_job p{
+    color:#4694ff;
+    padding:15px;
+    font-size:18px;
+    margin:0px;
+}
+
+#seven_sec{
+    background-color:#f8f9fb;
+    padding-bottom:40px;
+}
+
+#seven_sec h2{
+    text-align:center;
+    padding-top:20px;
+    font-size:24px;
+    margin-bottom: 30px;
+}
+
+#seven_sec h1{
+    font-size:20px;
+}
+
+.hero_2{
+    text-align:center;
+    background-image: url('../images/capture.png'); 
+    height:230px;
+    background-size: cover;
+}
+
+.hero_3{
+    text-align:center;
+    background-image: url('../images/capture.png'); 
+    height:230px;
+    background-size: cover;
+}
+
+.temp_section10{
+    background-color:#f0f0f0;
+}
+
+.temp_section10 h1{
+    font-size:26px;
+}
+
+.temp_section_outer{
+    background-color:#f9f9f9;
+}
+
+.image_content img{
+    width:100%;
+    height:160px;   
+}
+
+.image_content{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.image_content h2{
+  margin-top:10px;
+  font-size:20px;
+  margin-bottom: 10px;
+}
+
+.image_content a{
+    color:#0075ba;
+}
+
+#temp_img{
+    background-color:#ffffff;
+    margin-top:20px;
+    box-shadow: 0 0 19px rgb(0 0 0 / 14%);
+}
+
+.header-inner {
+    padding: 130px 0px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-toggle{
+    margin-top:15px;
+}
+
+.header-inner {
+    z-index: 99;
+}
+
+.bg-overlay-black-50 {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-overlay-black-50:before {
+    background: rgba(255, 255, 255, 0.6);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.bg-overlay-black-50{
+    background-repeat: none; 
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #042b48;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*height:34px;*/
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0075ba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height:34px;
+    }
+
+.temp_h3{
+    font-size: 27px;
+}
+
+.space_ptb{
+    height:20px;
+}
+
+.temp_section{
+    margin-top:5%;
+}
+
+.temp_section_outer{
+     padding-top:3%;
+     padding-bottom:3%;
+}
+
+.temp_section_outer_1{
+     padding-top:1%;
+     padding-bottom:1%;
+}
+
+.hero {
+    position: relative; 
+    width:100%;
+    height:230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero::before {    
+    content: "";
+    background-image: url('../images/category-image-1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+.hero123 {
+    text-align: center;
+    position: relative; 
+    width:100%;
+    height:230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero123::before {    
+    content: "";
+    background-image: url('../images/category-image-2.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
+.hero13 {
+    text-align: center;
+    background:#0075ba;
+    width:100%;
+    height:230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #0075ba !important;
+    width: 10% !important;
+}
+
+.part_2_inner{
+    align-items: center;
+    justify-content: center;
+}
+.part_2_inner ul{
+    list-style-type:none;
+    padding-left:12px;
+}
+.part_2_inner ul li{
+   margin-left: -10px;
+}
+
+.box_data{
+    padding:10px 30px 30px 30px;
+    box-shadow: 0 0 19px rgb(0 0 0 / 14%);
+}
+
+#temp_detailicon {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+}
+
+textarea {
+  resize: none;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.svg-inline--fa {
+    vertical-align: -0.200em;
+}
+
+.rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+    font-size: 18px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+    background: #ffffff;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+    background: #ffffff;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+    color: #55acee;
+    background: #fefefe;
+    border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+    background: #ffffff;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+    background: #ffffff;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+    background: #ffffff;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+}
+
+footer .temp_section_outer_1{
+  background-color:#0075ba;
+}
+
+footer .temp_section_outer_1 h1{
+  font-size:20px;
+  color:white;
+  margin-top:0px
+}
+
+.footer_bottom{
+  background-color:#042b48;
+}
+
+.footer_bottom h1{
+ font-size:16px;
+ color:white;
+ text-align: center;
+}
